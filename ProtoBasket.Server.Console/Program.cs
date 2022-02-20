@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProtoBasket.Server.Console
+﻿namespace ProtoBasket.Server.Console
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Crawling.PrintProto(2022, 15);
         }
     }
 }

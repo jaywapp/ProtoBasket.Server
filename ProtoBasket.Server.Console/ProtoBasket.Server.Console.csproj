@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Crawling.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Module\ProtoBasket.Common.Model\ProtoBasket.Common.Model.csproj">
+      <Project>{9C684400-391A-49C8-9953-C18F15596F95}</Project>
+      <Name>ProtoBasket.Common.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Module\ProtoBasket.Server.Crawler\ProtoBasket.Server.Crawler.csproj">
+      <Project>{8850FF70-87BF-4359-8916-7DAE69422C60}</Project>
+      <Name>ProtoBasket.Server.Crawler</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
