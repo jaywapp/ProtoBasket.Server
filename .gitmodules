@@ -1,0 +1,12 @@
+[submodule "Module/ProtoBasket.Common.Model"]
+	path = Module/ProtoBasket.Common.Model
+	url = git@github.com:jaywapp/ProtoBasket.Common.Model.git
+[submodule "Module/ProtoBasket.Server.DBAdapter"]
+	path = Module/ProtoBasket.Server.DBAdapter
+	url = git@github.com:jaywapp/ProtoBasket.Server.DBAdapter.git
+[submodule "Module/ProtoBasket.Server.Crawler"]
+	path = Module/ProtoBasket.Server.Crawler
+	url = git@github.com:jaywapp/ProtoBasket.Server.Crawler.git
+[submodule "Config"]
+	path = Config
+	url = git@github.com:jaywapp/ProtoBasket.Server.Configuration.git
